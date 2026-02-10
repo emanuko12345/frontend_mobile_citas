@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#061A2E">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publicar Disponibilidad"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#5DE2FF"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/etFechaDisp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Fecha (Formato: YYYY-MM-DD)"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#061A2E"
+        android:padding="16dp"
+        android:backgroundTint="#5DE2FF"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etHoraDisp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Hora (Formato: HH:MM)"
+        android:inputType="time"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#061A2E"
+        android:padding="16dp"
+        android:backgroundTint="#5DE2FF"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etMedicoIdDisp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Tu ID de Médico (Ej: 1)"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#061A2E"
+        android:padding="16dp"
+        android:backgroundTint="#5DE2FF"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnPublicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Publicar Horario"
+        android:textStyle="bold"
+        android:textColor="#061A2E"
+        android:backgroundTint="#5DE2FF"/>
+
+    <Button
+        android:id="@+id/btnVolverMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Cancelar"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F44336"/>
+
+</LinearLayout>

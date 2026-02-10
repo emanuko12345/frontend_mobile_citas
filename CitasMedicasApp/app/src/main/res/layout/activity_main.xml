@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="20dp"
+    android:background="#061A2E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro de Paciente"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#5DE2FF"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Nombre"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#061A2E"
+            android:padding="14dp"
+            android:backgroundTint="#5DE2FF"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Apellido"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#061A2E"
+            android:padding="14dp"
+            android:backgroundTint="#5DE2FF"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etCedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Cédula"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#061A2E"
+            android:padding="14dp"
+            android:backgroundTint="#5DE2FF"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#061A2E"
+            android:padding="14dp"
+            android:backgroundTint="#5DE2FF"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Teléfono"
+            android:inputType="phone"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#061A2E"
+            android:padding="14dp"
+            android:backgroundTint="#5DE2FF"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#061A2E"
+            android:padding="14dp"
+            android:backgroundTint="#5DE2FF"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Fecha de nacimiento (YYYY-MM-DD)"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#061A2E"
+            android:padding="14dp"
+            android:backgroundTint="#5DE2FF"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Dirección"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#061A2E"
+            android:padding="14dp"
+            android:backgroundTint="#5DE2FF"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="REGISTRAR"
+            android:textStyle="bold"
+            android:textColor="#061A2E"
+            android:backgroundTint="#5DE2FF"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#061A2E">
+
+    <TextView
+        android:id="@+id/tvBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Hola!"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:textColor="#5DE2FF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué deseas hacer hoy?"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnAgendarCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="📅  Agendar Nueva Cita"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#061A2E"
+        android:backgroundTint="#5DE2FF"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnMisCitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:text="📂  Mis Citas Médicas"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#061A2E"
+        android:backgroundTint="#5DE2FF"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnVerHistorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:text="📜  Historial Médico"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#061A2E"
+        android:backgroundTint="#5DE2FF"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnAnalisisIA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:text="✨  Análisis de Signos Vitales"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#061A2E"
+        android:backgroundTint="#5DE2FF"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:minHeight="48dp"
+        android:text="Cerrar Sesión"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F44336"
+        android:textStyle="bold"/>
+
+</LinearLayout>

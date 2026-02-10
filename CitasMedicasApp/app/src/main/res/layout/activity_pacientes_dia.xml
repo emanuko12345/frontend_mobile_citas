@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#061A2E">
+
+    <TextView
+        android:id="@+id/tvTituloGenerico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pacientes del Día"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:textColor="#5DE2FF"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPacientes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnVolverPacientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="VOLVER AL PANEL"
+        android:textStyle="bold"
+        android:textColor="#061A2E"
+        android:backgroundTint="#5DE2FF"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
